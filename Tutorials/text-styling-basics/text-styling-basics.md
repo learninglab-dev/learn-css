@@ -4,6 +4,11 @@
 There are lots of things you can do with text in CSS! We'll just cover a few key properties in this mini-tutorial, but once you understand the basics, you should be able to look up additional text formatting properties and apply them:
 
 - [Color](#color)
+- [Size & Weight](#size-&-weight)
+- [Shadow](#shadow)
+- [Font](#font)
+- [Alignment](#alignment)
+- [Decoration](#decoration)
 
 Here is a good [guide to text styling](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals) with a built in editor at the bottom for trying things out.
 
@@ -70,3 +75,40 @@ p {
 }
 ```
 ![color](color.png)
+
+#### Size & Weight
+
+Next, we'll set our font size and weight. You can use a [variety of units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) for size, including absolute units, like pixels `px`, and relative units, like percent `%`. Just be careful when using relative units, making sure that you know what the size is being calculate relative to. We'll stick with pixels for this demo:
+```css
+h1 {
+  color: #0bb8b2;
+  font-size: 48px;
+}
+h3 {
+  color: #de2d12;
+  font-size: 36px;
+}
+p {
+  color: black;
+  font-size: 12px;
+}
+```
+Font weight determines how bold the font is. You'll typically use only `regular` or `bold`, but you can also use numerical values from 100-900, if you want more precise weights. Heading elements are also bold by default in most browsers.
+```css
+h1 {
+  color: #0bb8b2;
+  font-size: 48px;
+  font-weight: 100;
+}
+h3 {
+  color: #de2d12;
+  font-size: 36px;
+  font-weight: 800;
+}
+p {
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+}
+```
+![size and weight](size-weight.png)
