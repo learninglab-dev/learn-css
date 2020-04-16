@@ -39,7 +39,7 @@ div#backgroundImg {
   height: 300px;
 }
 ```
-    Using `cover` for the image size ensures that our image fills the entire `<div>` no matter the size of the user's screen.
+  - Using `cover` for the image size ensures that our image fills the entire `<div>` no matter the size of the user's screen.
 
 2. Make the `<div>` containing the image a flexbox container oriented as a column:
 ```css
@@ -52,7 +52,7 @@ div#backgroundImg {
   flex-direction: column;
 }
 ```
-    We're using `column` here because we want our title and subtitle to stack on top of each other rather than spread out in a row.
+  - We're using `column` here because we want our title and subtitle to stack on top of each other rather than spread out in a row.
 
 3. Align the items in our flex column to center both vertically and horizontally:
 ```css
@@ -67,7 +67,7 @@ div#backgroundImg {
   align-items: center;
 }
 ```
-    In flexbox `justify` deals with the primary axis, so in our case with a column the vertical one, while `align` sets the cross axis, in our case horizontal.
+  - In flexbox `justify` deals with the primary axis, so in our case with a column the vertical one, while `align` sets the cross axis, in our case horizontal.
 
 4. Set the font color on your title and subtitle so they're visible. On the sample image `white`, hex `#ffffff`, works well, but you can choose any color by finding its [hex color code](https://www.google.com/search?q=color+picker):
 ```css
@@ -78,8 +78,7 @@ h3 {
   color: #ffffff;
 }
 ```
-
-    That's it! Save your CSS file and open your HTML file in your browser.
+That's it! Save your CSS file and open your HTML file in your browser.
 
 ### Result
 
