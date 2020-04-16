@@ -4,7 +4,7 @@
 There are lots of things you can do with text in CSS! We'll just cover a few key properties in this mini-tutorial, but once you understand the basics, you should be able to look up additional text formatting properties and apply them:
 
 - [Color](#color)
-- [Size & Weight](#size-&-weight)
+- [Size & Weight](#size--weight)
 - [Shadow](#shadow)
 - [Font](#font)
 - [Alignment](#alignment)
@@ -14,7 +14,7 @@ Here is a good [guide to text styling](https://developer.mozilla.org/en-US/docs/
 
 ---
 
-### Starting Points
+## Starting Points
 
 This mini-tutorial just covers CSS, so we'll assume you have HTML with a variety of text elements to style. You'll want to have text with at least these three tags:
 ```html
@@ -26,7 +26,7 @@ You can use [this demo html](./starter.html) if you don't have your own.
 
 ---
 
-### Adding a Stylesheet
+## Adding a Stylesheet
 
 If you don't already have a stylesheet in your project, the first thing you'll need to do is create a CSS file, `styles.css`, in the same directory as your HTML. If you're using the demo HTML in this repo, there's a blank [`styles.css`](./styles.css) ready for you.
 
@@ -38,11 +38,11 @@ In the demo HTML, this is already done for you, but you should still take a look
 
 ---
 
-### CSS Text Properties
+## CSS Text Properties
 
 All of the following code, or any of it that you choose to use, goes in your `styles.css` file. Note that in this mini-tutorial, there is no "final" product. Instead we'll try out a variety of text styles that you might want to use in your own projects.
 
-#### Add Selectors
+### Add Selectors
 
 Before we can make any changes to our text, we need to add the relevant "selectors" to our `styles.css`. Selectors are what the various HTML elements like `p` and `h1` are called in CSS.  
 
@@ -60,7 +60,7 @@ p {
 ```
 If you have more in your HTML file, go ahead and add those in as well.
 
-#### Color
+### Color
 
 First we'll add some color. Some basic colors like `blue`, `black`, `purple`, etc. can be used by name, but you can choose any color by finding its [hex color code](https://www.google.com/search?q=color+picker). Here's the demo text with some random colors:
 ```css
@@ -76,7 +76,7 @@ p {
 ```
 ![color](color.png)
 
-#### Size & Weight
+### Size & Weight
 
 Next, we'll set our font size and weight. You can use a [variety of units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) for size, including absolute units, like pixels `px`, and relative units, like percent `%`. Just be careful when using relative units, making sure that you know what the size is being calculate relative to. We'll stick with pixels for this demo:
 ```css
