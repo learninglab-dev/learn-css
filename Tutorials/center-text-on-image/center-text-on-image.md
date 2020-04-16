@@ -28,7 +28,7 @@ We'll then add the following link to our CSS in the `<head>` of our our HTML fil
 ```html
 <link rel="stylesheet" href="styles.css">
 ```
-In the demo, HTML this is already done for you, but you should still take a look to make sure you know where the stylesheet link goes for future projects.
+In the demo HTML, this is already done for you, but you should still take a look to make sure you know where the stylesheet link goes for future projects.
 
 ---
 
