@@ -1,0 +1,3 @@
+# `the-resources` Setup
+
+Use this guide if you're...

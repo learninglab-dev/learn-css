@@ -16,8 +16,6 @@ If you're working with existing HTML, just make sure you've got a `.css` file in
 
 You can write HTML and CSS in just about any text editor. At the LL, we typically use [Atom](https://atom.io/), but you can experiment with many free editors.
 
----
-
 ## HTML
 
 Next, you'll want to add some basic structure to your HTML file. Paste the following HTML into your `.html`. This just tells the browser to parse this document as HTML, what the page title is (feel free to change this to whatever you like), where to find the stylesheet (make sure that the file name after `href` here matches what you named your css file), and what character set we're using.  
@@ -47,8 +45,6 @@ Each individual tutorial will specify a few required HTML elements that that tut
 </div>
 ```
 You'll paste this HTML inside the `<body></body>` tags of your document, if you're starting from scratch. If you're using your own, you'll just want to make sure your HTML document includes at least one set of elements of this structure.
-
----
 
 ## CSS
 
