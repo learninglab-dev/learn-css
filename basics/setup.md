@@ -2,7 +2,7 @@
 
 This setup will get you started on these tutorials using either sample boilerplate HTML or any existing HTML document. If you're working the LL `the-resources` repo and are styling markdown, checkout this [setup guide](./resources-setup.md) instead!
 
-### Project Directory
+## Project Directory
 
 The simplest way to connect your HTML and your styles is to put both in the same folder. A sample structure could look something like this:
 ```
@@ -18,7 +18,7 @@ You can write HTML and CSS in just about any text editor. At the LL, we typicall
 
 ---
 
-### HTML
+## HTML
 
 Next, you'll want to add some basic structure to your HTML file. Paste the following HTML into your `.html`. This just tells the browser to parse this document as HTML, what the page title is (feel free to change this to whatever you like), where to find the stylesheet (make sure that the file name after `href` here matches what you named your css file), and what character set we're using.  
 
@@ -50,7 +50,7 @@ You'll paste this HTML inside the `<body></body>` tags of your document, if you'
 
 ---
 
-### CSS
+## CSS
 
 If you created a blank `styles.css` earlier, you're all set to start writing CSS!
 
