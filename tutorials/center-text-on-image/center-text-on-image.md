@@ -7,32 +7,21 @@ Here's a good [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-
 
 ---
 
-### Starting Points
+### Required HTML
 
-This mini-tutorial just covers CSS, so we'll assume you have HTML for an image that you want to center a title over. The relevant part should look something like this:
+If you haven't already checked out the [Setup](../basics/setup.md) guide, go there first! This is one of the tutorials that requires that you interact with some HTML directly. So, you should either have an HTML doc with a section that looks like this or else just paste this HTML directly at the top of the markdown file you're working with:
+
 ```html
 <div id="backgroundImg">
   <h1>My Title</h1>
   <h3>my subtitle</h3>
 </div>
 ```
-You'll also need an image to use as your background. You can use [this demo html](./starter.html) and [this sample image](./cards.jpg) if you don't have your own.
+You'll also need a link to an image to use as your background. You can use [an LL flickr image](https://flickr.learninglab.xyz) if you don't have your own.
 
 ---
 
-### Adding a Stylesheet
-
-If you don't already have a stylesheet in your project, the first thing you'll need to do is create a CSS file, `styles.css`, in the same directory as your HTML. If you're using the demo HTML in this repo, there's a blank [`styles.css`](./styles.css) ready for you.
-
-We'll then add the following link to our CSS in the `<head>` of our our HTML file:
-```html
-<link rel="stylesheet" href="styles.css">
-```
-In the demo HTML, this is already done for you, but you should still take a look to make sure you know where the stylesheet link goes for future projects.
-
----
-
-### Writing the CSS
+### The CSS
 
 All of the following code goes in your `styles.css` file. Note that in steps 1-3 we're adding properties to the same "selector". Selector is the CSS term for tags like `h1` that identify elements on the page. In the end, you'll only have the final version of `div#backgroundImg` from step 3 in your stylesheet.
 
