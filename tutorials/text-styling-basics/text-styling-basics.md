@@ -6,37 +6,28 @@ There are lots of things you can do with text in CSS! We'll just cover a few key
 - [Color](#color)
 - [Size & Weight](#size--weight)
 - [Shadow](#shadow)
-- [Font](#font)
 - [Alignment](#alignment)
-- [Decoration](#decoration)
+- [Line Height](#line-height)
 
 Here is a good [guide to text styling](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals) with a built in editor at the bottom for trying things out.
 
----
+## Requirements
 
-## Starting Points
+This mini-tutorial works with either HTML or markdown. You can use any text tags you like, but we'll reference these three in the tutorial:
 
-This mini-tutorial just covers CSS, so we'll assume you have HTML with a variety of text elements to style. You'll want to have text with at least these three tags:
+**HTML:**
 ```html
 <h1>Heading</h1>
 <h3>Subheading</h3>
 <p>This is a paragraph. Here we'd want a larger chunk of text to style.</p>
 ```
-You can use [this demo html](./starter.html) if you don't have your own.
-
----
-
-## Adding a Stylesheet
-
-If you don't already have a stylesheet in your project, the first thing you'll need to do is create a CSS file, `styles.css`, in the same directory as your HTML. If you're using the demo HTML in this repo, there's a blank [`styles.css`](./styles.css) ready for you.
-
-We'll then add the following link to our CSS in the `<head>` of our our HTML file:
-```html
-<link rel="stylesheet" href="styles.css">
+**Markdown:**
+```gfm
+# Heading
+### Subheading
+This is a paragraph. Here we'd want a larger chunk of text to style.
 ```
-In the demo HTML, this is already done for you, but you should still take a look to make sure you know where the stylesheet link goes for future projects.
-
----
+&nbsp;  
 
 ## CSS Text Properties
 
@@ -44,7 +35,7 @@ All of the following code, or any of it that you choose to use, goes in your `st
 
 ### Add Selectors
 
-Before we can make any changes to our text, we need to add the relevant "selectors" to our `styles.css`. Selectors are what the various HTML elements like `p` and `h1` are called in CSS.  
+Before we can make any changes to our text, we need to add the relevant "selectors" to our `styles.css`. Selectors are what the HTML elements like `p` and `h1` are called in CSS.  
 
 In the demo HTML, we only have three types of text elements, so we'll add those three selectors to our styles:
 ```css
@@ -78,7 +69,7 @@ p {
 
 ### Size & Weight
 
-Next, we'll set our font size and weight. You can use a [variety of units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) for size, including absolute units, like pixels `px`, and relative units, like percent `%`. Just be careful when using relative units, making sure that you know what the size is being calculate relative to. We'll stick with pixels for this demo:
+Next, we'll set our font size and weight. You can use a [variety of units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) for size, including absolute units, like pixels `px`, and relative units, like percentages `%`. Just be careful when using relative units, making sure that you know what the size is being calculated relative to. We'll stick with pixels for this demo:
 ```css
 h1 {
   color: #0bb8b2;
@@ -93,7 +84,7 @@ p {
   font-size: 12px;
 }
 ```
-Font weight determines how bold the font is. You'll typically use only `regular` or `bold`, but you can also use numerical values from 100-900, if you want more precise weights. Heading elements are also bold by default in most browsers.
+Font weight determines how bold the font is. You'll typically use only `regular` or `bold`, but you can also use numerical values from 100-900, if you want more precise weights. Heading elements are also bold by default in most browsers. But let's mix things up a bit!
 ```css
 h1 {
   color: #0bb8b2;
@@ -111,4 +102,64 @@ p {
   font-weight: bold;
 }
 ```
+
+Here's the demo at this point:
 ![size and weight](./assets/size-weight.png)
+
+### Shadow
+
+Now let's add some drop shadows to our heading. For this, we'll use the property `text-shadow`. This property takes four values:
+1. The right-left offset of the shadow. Use a negative number to move the shadow left.
+2. The vertical offset. Use a negative number to move the shadow up.
+3. The blur radius. How much do you want your shadow to spread?
+4. The color. Accepts the same types of color values as we used for the text itself.
+
+```css
+h1 {
+  color: #0bb8b2;
+  font-size: 48px;
+  font-weight: 100;
+  text-shadow: 2px 2px 4px #b7b9bd;
+}
+h3 {
+  color: #de2d12;
+  font-size: 36px;
+  font-weight: 800;
+}
+p {
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+}
+```
+Here's the demo with the shadow:
+![shadow](./assets/shadow.png)
+
+### Alignment
+
+Next you might want switch up your text alignment. You might want to center your heading. Or perhaps you have an image next to one of your paragraphs and you want to right justify your text. Here's how to do that:
+```css
+h1 {
+  color: #0bb8b2;
+  font-size: 48px;
+  font-weight: 100;
+  text-shadow: 2px 2px 4px #b7b9bd;
+  text-align: center;
+}
+h3 {
+  color: #de2d12;
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+}
+p {
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+}
+```
+We used the property `text-align`, which does just what it says, aligns the text. This property takes the values `center`, `left`, `right`, and `justify`. Note, however, that when using `text-align` your text will by default be aligned with respect to the immediate parent. In this case, our text elements live just under `<body>`, which fills the whole screen, but if they lived in a smaller `<div>` they'd be centered or right justified accordingly. Here's the result of the css additions above:
+![alignment](./assets/alignment.png)
+
+### Line Height

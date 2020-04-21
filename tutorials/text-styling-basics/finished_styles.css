@@ -2,14 +2,18 @@ h1 {
   color: #0bb8b2;
   font-size: 48px;
   font-weight: 100;
+  text-shadow: 2px 2px 4px #b7b9bd;
+  text-align: center;
 }
 h3 {
   color: #de2d12;
   font-size: 36px;
   font-weight: 800;
+  text-align: center;
 }
 p {
   color: black;
   font-size: 12px;
   font-weight: bold;
+  text-align: right;
 }
