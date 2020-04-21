@@ -16,7 +16,7 @@ This mini-tutorial just covers CSS, so we'll assume you have HTML for an image t
   <h3>my subtitle</h3>
 </div>
 ```
-You'll also need an image to use as your background. You can use [this demo html](./starter.html) and [this sample image](./crayons.jpg) if you don't have your own.
+You'll also need an image to use as your background. You can use [this demo html](./starter.html) and [this sample image](./cards.jpg) if you don't have your own.
 
 ---
 
@@ -40,7 +40,7 @@ All of the following code goes in your `styles.css` file. Note that in steps 1-3
 1. Add and size the background image:
 ```css
 div#backgroundImg {
-  background-image: url('./crayons.jpg');
+  background-image: url('./cards.jpg');
   background-size: cover;
   width: 100vw;
   height: 300px;
@@ -53,7 +53,7 @@ div#backgroundImg {
 2. Make the `<div>` containing the image a flexbox container oriented as a column:
 ```css
 div#backgroundImg {
-  background-image: url('./crayons.jpg');
+  background-image: url('./cards.jpg');
   background-size: cover;
   width: 100vw;
   height: 300px;
@@ -68,7 +68,7 @@ div#backgroundImg {
 3. Align the items in our flex column to center both vertically and horizontally:
 ```css
 div#backgroundImg {
-  background-image: url('./crayons.jpg');
+  background-image: url('./cards.jpg');
   background-size: cover;
   width: 100vw;
   height: 300px;

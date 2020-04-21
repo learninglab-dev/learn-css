@@ -2,7 +2,7 @@
 
 Use this guide if you're looking to try out these CSS tutorials within `the-resources` project.
 
-**Note:** Not every tutorial in this repo works with `the-resources`-- *yet!* Some require that you have direct access to the HTML. Tutorials that require you to edit the HTML will say so at the top.
+**Note:** Not every tutorial in this repo works seemlessly with `the-resources`-- *yet!* Some require that you have direct access to the HTML. You *could* put this HTML directly into your markdown file, but it might take a bit of practice to get exactly what you want. Tutorials that require you to edit HTML will say so at the top.
 
 ## Video Walkthrough
 
