@@ -1,5 +1,5 @@
 div#backgroundImg {
-  background-image: url('./cards.jpg');
+  background-image: url('./assets/cards.jpg');
   background-size: cover;
   width: 100vw;
   height: 300px;

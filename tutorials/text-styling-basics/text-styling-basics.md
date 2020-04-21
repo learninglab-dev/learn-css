@@ -74,7 +74,7 @@ p {
   color: black;
 }
 ```
-![color](color.png)
+![color](./assets/color.png)
 
 ### Size & Weight
 
@@ -111,4 +111,4 @@ p {
   font-weight: bold;
 }
 ```
-![size and weight](size-weight.png)
+![size and weight](./assets/size-weight.png)
