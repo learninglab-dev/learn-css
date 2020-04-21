@@ -19,11 +19,22 @@ Finally, in basics you'll also find our [links to outside resources](./basics/li
 
 ### 2. tutorials
 
-There are no surprises here! This is the list of what's currently posted or in progress:
+There are no surprises here! This folder contains all the tutorials. Below is the list of them in a recommended order, if you're planning to go through all of them. However, each one is modular, and you should be able to jump to a particular topic:
 
-- [center-text-on-image](./tutorials/center-text-on-image/center-text-on-image.md)
-- [text-styling-basics](./tutorials/text-styling-basics/text-styling-basics.md)
-- [add-google-fonts](./tutorials/add-google-fonts/add-google-fonts.md)
+1. How do I...
+  - [make-text-pretty](./tutorials/text-styling-basics/text-styling-basics.md)
+  - [size-and-format-images](./tutorials/size-format-images)
+  - [center-text-on-image](./tutorials/center-text-on-image/center-text-on-image.md)
+  - [add-my-own-fonts](./tutorials/add-my-own-fonts/add-my-own-fonts.md)
+  - [make-a-spinning-logo](./tutorials/make-a-spinning-logo)
+
+2. CSS Concepts
+  - [box-model]()
+  - [flexbox-layout]()
+  - [css-grid]()
+  - [intro-to-selectors]()
+  - [why-cascading]()
+
 
 ### 3. pages
 

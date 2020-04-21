@@ -86,4 +86,4 @@ That's it! Save your CSS file and open your HTML file in your browser.
 
 ### Result
 
-![result](./result.png)
+![result](./assets/result.png)

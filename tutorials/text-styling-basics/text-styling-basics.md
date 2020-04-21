@@ -8,6 +8,7 @@ There are lots of things you can do with text in CSS! We'll just cover a few key
 - [Shadow](#shadow)
 - [Alignment](#alignment)
 - [Line Height](#line-height)
+- [Margins](#margins)
 
 Here is a good [guide to text styling](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals) with a built in editor at the bottom for trying things out.
 
