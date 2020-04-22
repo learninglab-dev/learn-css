@@ -5,6 +5,7 @@ There are lots of things you can do with text in CSS! We'll just cover a few key
 
 - [Color](#color)
 - [Size & Weight](#size--weight)
+- [Web Fonts](#web-fonts)
 - [Shadow](#shadow)
 - [Alignment](#alignment)
 - [Line Height](#line-height)
@@ -107,6 +108,34 @@ p {
 Here's the demo at this point:
 ![size and weight](./assets/size-weight.png)
 
+### Web Fonts
+
+Of course, you'll want to use something other than default fonts to make your text pretty! In [this tutorial](../use-your-own-font), we show you how to import fonts from Google. For now, however, we can at least demonstrate how to control fonts with CSS using the built in fonts supplied by your browser:
+```css
+h1 {
+  color: #0bb8b2;
+  font-size: 48px;
+  font-weight: 100;
+  font-family: fantasy;
+}
+h3 {
+  color: #de2d12;
+  font-size: 36px;
+  font-weight: 800;
+  font-family: cursive;
+}
+p {
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: monospace;
+}
+```
+Here's that beautiful creation ;-)
+![font-family](./assets/font-family.png)
+
+Besides `fantasy`, `cursive`, and `monospace`, you can also use `serif`, `sans-serif`, and a few common fonts like `Aerial` or `Georgia`. The font supplied for each category varies from browser to browser, so your best bet is to [import your own fonts](../add-your-own-fonts) to your project.
+
 ### Shadow
 
 Now let's add some drop shadows to our heading. For this, we'll use the property `text-shadow`. This property takes four values:
@@ -164,3 +193,59 @@ We used the property `text-align`, which does just what it says, aligns the text
 ![alignment](./assets/alignment.png)
 
 ### Line Height
+
+Adding some spacing between lines in your paragraphs makes them a lot more readable. MDN gives a recommended line height of 1.5-2, something like double spaced in a document, for readability. Here's how you control line height in CSS:
+```css
+h1 {
+  color: #0bb8b2;
+  font-size: 48px;
+  font-weight: 100;
+  text-shadow: 2px 2px 4px #b7b9bd;
+  text-align: center;
+}
+h3 {
+  color: #de2d12;
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+}
+p {
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+  line-height: 1.8;
+}
+```
+Note that here we're using a number without units for our `line-height`. You can specify units, but doing it this way, makes `line-height` a function of `font-size`.
+
+![line-height](./assets/line-height.png)
+
+### Margins
+
+Finally, you might want to set some margins around your text. There are lots of ways to handle spacing in CSS layouts. We cover some of them at a more conceptual level in [box-model](../box-model), [flexbox-layout](../flexbox-layout), and [css-grid](../css-grid). However, if you just want to add some right and left margins by your paragraphs, you can do so like this:
+```css
+h1 {
+  color: #0bb8b2;
+  font-size: 48px;
+  font-weight: 100;
+  text-shadow: 2px 2px 4px #b7b9bd;
+  text-align: center;
+}
+h3 {
+  color: #de2d12;
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+}
+p {
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+  line-height: 1.8;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+```
+![margins](./assets/margins.png)
