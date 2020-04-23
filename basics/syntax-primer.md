@@ -41,6 +41,6 @@ There are a few different types of selectors in this list:
 - `div#heroImg` is an id selector. `#heroImg` is the id, and we assign it to an HTML element like so, `id="heroImg"`. Ids work a lot like classes except that an id can only attach to one element, so ids are the best way a specific item on your page.
 - `div#heroImg > h2` is a nested selector. It essentially says apply these styles only to `h2` elements that are children of the hero image div. You'll see this sort of selector in our [center-text-on-image](../tutorial/center-text-on-image/center-text-on-image.md) tutorial.
 
-Sentence re: specificity...
+At this point you might be wondering, what happens if my element is covered by more than one selector? What if, for example, there was an `h2` selector in addition to the nested one? This is where the _Cascading_ part of CSS comes in. Styles in selectors that are more specific override styles from selectors that are more general. We'll say more about this in our tutorial [Why Cascading?](../tutorials/why-cascading)
 
 Declarations are all of the specific styles we're applying. Each declaration consists of a property and a value. For example, `font-size: 50px;` declares that for the property `font-size`, we'll use a value of `50px`. Notice that each of these declarations is formatted with a colon after the property name and a semi-colon at the end of the line. These properties and the values they accept are what we'll be exploring in all of the tutorials in this repo!
