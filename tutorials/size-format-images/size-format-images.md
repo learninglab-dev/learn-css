@@ -77,3 +77,122 @@ img#customImg {
 }
 ```
 Here we've specified an absolute height on the container and then told our image to fill the whole width of the container.
+
+If you want your image to size responsively, you can do using either relative units (`vw` stands for viewport width) or the `max-width` and `max-height` properties:
+```css
+div#imgHolder {
+
+}
+img#customImg {
+  width: .5vw;
+  height: auto;
+}
+```
+```css
+div#imgHolder {
+
+}
+img#customImg {
+  max-width: 50%;
+  height: auto;
+}
+```
+&nbsp;
+
+### Display
+
+`display` is a, perhaps oddly named, but nonetheless essential property to know about when formatting images. It takes a few values, but the key ones are `inline` and `block`. Elements that are set as `block` start on a new line and fill the full width of the screen unless otherwise specified. Elements that are `inline` do not start on a new line and only take up as much width as is needed to display their content. By default, `<img />` is an inline element.
+
+If you want you image to start on a new line, you'll want to set its `display` property:
+```css
+div#imgHolder {
+
+}
+img#customImg {
+  width: 300px;
+  height: auto;
+  display: block
+}
+```
+You can also use the properties `margin-left` and `margin-right` to adjust the placement of your image on the screen within the block.
+
+&nbsp;
+
+### Borders
+
+Next, you might want to customize your image's border. This might involve putting a colored border around the image or just rounding the image's corners.
+
+Use `border` to add a visible border around the image:
+```css
+div#imgHolder {
+
+}
+img#customImg {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid black;
+}
+```
+`border` takes three values: a width, a style, and a color. You can find all the border style options [here](https://www.w3schools.com/css/css_border.asp). Most units are acceptable for size, and as we saw with text styling, colors can be specified by name for basic colors and by [hex code](https://www.google.com/search?q=color+picker) for all the rest.
+
+Use `border-radius` to round the corners of your image:
+```css
+div#imgHolder {
+
+}
+img#customImg {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid black;
+  border-radius: 25px;
+}
+```
+Setting `border-radius` to `50%` will make your image round. You can also specify each corner individually to make asymmetric shapes: `border-radius: 25px 10px 15px 10px`
+
+&nbsp;  
+
+### Opacity
+
+Opacity is just what it sounds like. The `opacity` property takes values from `0`, transparent, to `1.0`, full saturation.
+```css
+div#imgHolder {
+
+}
+img#customImg {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid black;
+  border-radius: 25px;
+  opacity: .75;
+}
+```
+&nbsp;
+
+### Filters
+
+Finally, you can use the `filter` property to apply some basic visual effects. Note, however, we might recommend using a different software to edit your images directly rather than relying on the browser's application of these effects.
+```css
+div#imgHolder {
+
+}
+img#customImg {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid black;
+  border-radius: 25px;
+  filter: grayscale(100%);
+}
+```
+`filter` takes the name of filter and then a percentage, e.g. `filter: contrast(200%)` or `filter: blur(10%)`
