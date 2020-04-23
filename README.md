@@ -11,7 +11,7 @@ This repo has three sections:
 
 ### 1. basics
 
-Here you'll find a [glossary](./basics/glossary.md). Please contribute as you learn new CSS terms!
+Here you'll find a [glossary](./basics/glossary.md) and a [primer](./basics/syntax-primer.md) on CSS syntax. Please contribute to the glossary as you learn new CSS terms!
 
 You'll also find a [setup](./basics/setup.md) doc, which lays out the basics setup needed for trying out each of the tutorials here. For example, you'll always need some boilerplate HTML to style. In addition, for LL folks working on [the-resources](https://github.com/learninglab-dev/the-resources), there's a special [resources-setup](./basics/resources-setup.md) on how to get started with these tutorials in that repo.
 
