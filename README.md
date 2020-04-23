@@ -23,10 +23,10 @@ There are no surprises here! This folder contains all the tutorials. Below is th
 
 1. How do I...
   - [make-text-pretty](./tutorials/text-styling-basics/text-styling-basics.md)
-  - [size-and-format-images](./tutorials/size-format-images)
+  - [size-and-format-images](./tutorials/size-format-images/size-format-images.md)
   - [center-text-on-image](./tutorials/center-text-on-image/center-text-on-image.md)
-  - [add-my-own-fonts](./tutorials/add-my-own-fonts/add-my-own-fonts.md)
-  - [make-a-spinning-logo](./tutorials/make-a-spinning-logo)
+  - [add-my-own-fonts](./tutorials/add-fonts/add-fonts.md)
+  - [make-a-spinning-logo](./tutorials/spinning-logo/spinning-logo.md)
 
 2. CSS Concepts
   - [box-model]()
