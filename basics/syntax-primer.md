@@ -31,14 +31,14 @@ In general, CSS stylesheets contain two things:
 Selectors are all the names that tell your browser which HTML elements to apply which styles to. For example, `body` is a selector. Styles inside the `{}` following `body` apply to all HTML elements contained in the body of your document. In our example above, these are all selectors:
   - `body`
   - `h1`
-  - `.captions`
+  - `.caption`
   - `div#heroImg`
   - `div#heroImg > h2`
 
-There are a few different types of selectors in this list:
-- `body` and `h1` are standard selectors. They apply to every HTML or markdown element of that type.
+There are a few different [types of selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) in this list:
+- `body` and `h1` are type selectors. They apply to every HTML or markdown element of that type.
 - `.caption` is a class selector. We can mark elements in our HTML document as `class="caption"`, and styles listed here will apply to every element so identified.
-- `div#heroImg` is an id selector. `#heroImg` is the id, and we assign it to an HTML element like so, `id="heroImg"`. Ids work a lot like classes except that an id can only attach to one element, so ids are the best way a specific item on your page.
+- `div#heroImg` is an id selector. `#heroImg` is the id, and we assign it to an HTML element like so, `id="heroImg"`. Ids work a lot like classes except that an id can only attach to one element, so ids are the best way to style only a specific item on your page.
 - `div#heroImg > h2` is a nested selector. It essentially says apply these styles only to `h2` elements that are children of the hero image div. You'll see this sort of selector in our [center-text-on-image](../tutorial/center-text-on-image/center-text-on-image.md) tutorial.
 
 At this point you might be wondering, what happens if my element is covered by more than one selector? What if, for example, there was an `h2` selector in addition to the nested one? This is where the _Cascading_ part of CSS comes in. Styles in selectors that are more specific override styles from selectors that are more general. We'll say more about this in our tutorial [Why Cascading?](../tutorials/why-cascading)
