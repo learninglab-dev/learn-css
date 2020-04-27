@@ -1,0 +1,44 @@
+* {
+  color: red;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: aqua;
+}
+
+li {
+  color: blue;
+}
+
+p {
+  text-decoration: line-through
+}
+
+.special {
+  color: pink;
+}
+
+#extraspecial {
+  text-align: center;
+}
+
+h1, h2 {
+  letter-spacing: 15px;
+}
+
+#outer p {
+  font-style: italic;
+}
+
+#outer > p {
+  font-weight: bold;
+}
+
+li:nth-child(3) {
+  text-shadow: 1px 1px 4px black;
+}
+
+p::first-letter {
+  color: navy;
+}

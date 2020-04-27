@@ -1,0 +1,7 @@
+h3 {
+  color: lime !important;
+}
+h1, h3 {
+  color: magenta ;
+  text-transform: uppercase;
+}
