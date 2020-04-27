@@ -63,7 +63,8 @@ img#customImg {
   height: auto;
 }
 ```
-Assigning `auto` to one dimension ensures that the aspect ratio of your image is maintained.
+Assigning `auto` to one dimension ensures that the aspect ratio of your image is maintained:
+![300px](./assets/300px.png)
 
 You might also size an image by sizing the `div` that contains it:
 ```css
@@ -84,7 +85,7 @@ div#imgHolder {
 
 }
 img#customImg {
-  width: .5vw;
+  width: 50vw;
   height: auto;
 }
 ```
@@ -97,6 +98,7 @@ img#customImg {
   height: auto;
 }
 ```
+![size](./assets/size.png)
 &nbsp;
 
 ### Display
@@ -109,12 +111,13 @@ div#imgHolder {
 
 }
 img#customImg {
-  width: 300px;
+  width: 50vw;
   height: auto;
   display: block
 }
 ```
-You can also use the properties `margin-left` and `margin-right` to adjust the placement of your image on the screen within the block.
+You can also use the properties `margin-left` and `margin-right` to adjust the placement of your image on the screen within the block. For example, setting both to `auto` centers the image:
+![centered](./assets/centered.png)
 
 &nbsp;
 
@@ -128,7 +131,7 @@ div#imgHolder {
 
 }
 img#customImg {
-  width: 300px;
+  width: 50vw;
   height: auto;
   display: block;
   margin-left: auto;
@@ -136,6 +139,8 @@ img#customImg {
   border: 5px solid black;
 }
 ```
+![border](./assets/border.png)
+
 `border` takes three values: a width, a style, and a color. You can find all the border style options [here](https://www.w3schools.com/css/css_border.asp). Most units are acceptable for size, and as we saw with text styling, colors can be specified by name for basic colors and by [hex code](https://www.google.com/search?q=color+picker) for all the rest.
 
 Use `border-radius` to round the corners of your image:
@@ -153,7 +158,10 @@ img#customImg {
   border-radius: 25px;
 }
 ```
+![roundCorners](./assets/roundCorners.png)
+
 Setting `border-radius` to `50%` will make your image round. You can also specify each corner individually to make asymmetric shapes: `border-radius: 25px 10px 15px 10px`
+![round](./assets/round.png)
 
 &nbsp;  
 
@@ -175,6 +183,7 @@ img#customImg {
   opacity: .75;
 }
 ```
+![opacity](./assets/opacity.png)
 &nbsp;
 
 ### Filters
@@ -195,4 +204,6 @@ img#customImg {
   filter: grayscale(100%);
 }
 ```
+![grayscale](./assets/grayscale.png)
+
 `filter` takes the name of filter and then a percentage, e.g. `filter: contrast(200%)` or `filter: blur(10%)`

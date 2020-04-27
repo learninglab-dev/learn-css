@@ -24,5 +24,5 @@ Vanilla CSS can actually create quite a few animations! It does so using [keyfra
     transform: rotate(360deg);
   }
 }
-
 ```
+Let's unpack this a bit. It looks pretty weird compared to the CSS we've encountered in earlier tutorials!
