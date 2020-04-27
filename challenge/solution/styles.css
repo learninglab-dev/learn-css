@@ -1,0 +1,62 @@
+#three-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#center-column {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+#center-column > * {
+  margin: 10px 0px;
+}
+
+h1 {
+  font-family: serif;
+  font-weight: 300;
+}
+
+#two-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#author {
+  width: 200px;
+  height: auto;
+}
+
+#social {
+  width: 150px;
+  height: auto;
+}
+
+.center-image {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: gray;
+}
+
+.caption a {
+  color: gray;
+}
+
+p {
+  font-family: serif;
+  line-height: 1.5em;
+}
+
+.highlight {
+  background-color: lightgray;
+}

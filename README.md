@@ -32,8 +32,8 @@ There are no surprises here! This folder contains all the tutorials. Below is th
   - [box-model]()
   - [flexbox-layout]()
   - [css-grid]()
-  - [intro-to-selectors]()
-  - [why-cascading]()
+  - [intro-to-selectors](./tutorials/intro-to-selectors/intro-to-selectors.md)
+  - [why-cascading](./tutorials/why-cascading/why-cascading.md)
 
 
 ### 3. pages
