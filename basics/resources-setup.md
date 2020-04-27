@@ -40,3 +40,17 @@ But here are the steps, if you prefer the written word. :smile:
 When you're ready to do more with styling, you can run a local copy of `resources.learninglab.xyz`! This will allow you to view your changes immediately in the browser without submitting PRs or waiting for approval. Of course, you should still submit a PR when you've got something you're happy with, so your new styles can go live on the full site.
 
 To setup a local server, follow these steps:
+
+0. Make sure you have `node.js` and `npm` installed on your machine. You can do this with a package manager like Homebrew, or you can grab the installer for your operating system [here](https://nodejs.org/en/download/).
+
+1. Open your command line interface app (on a Mac this is Terminal; on Windows you can download a similar program).
+
+2. Decide where you'd like to save your local copy of the repo. Then use the command `cd` to navigate to that location. For example, if you want to put the copy on your desktop, you'd enter `cd desktop` in the command line.
+
+3. Once you're in the right place, head over to `the-resources` repo on github. There you'll click the green button `Clone or download` and copy the url that pops up.
+
+4. Back in your terminal, enter `git clone [paste url link]`. This should start the process of downloading the repo.
+
+5. When the download finishes, enter `cd the-resources` to navigate into your new folder. Then install its dependencies by typing `npm i`. This might take a minute or two.
+
+6. Finally, you can enter `npm run devstart` and then navigate to `localhost:3000` in your browser. You should see a copy of the resources! Now, when you make an save changes to your local copy of the repository, you updates should appear here in the browser right away.
