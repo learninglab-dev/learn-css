@@ -44,8 +44,9 @@ We can override the default and tell `.parent` to arrange its children in a colu
 
 ![flex-column](./assets/flex-column.png)
 
-Notice how the red child is always first and the purple child is always last? Flexboxes always lay out their children following **the order in which they appear** in the HTML. We can't scramble the order, but we _can_ tell the parent to reverse it:
+Notice how the red child is always first and the purple child is always last? Flexboxes always lay out their children following **the order in which they appear** in the HTML. We can't scramble the order[^1], but we _can_ tell the parent to reverse it:
 
+[^1]: Actually we [can](https://developer.mozilla.org/en-US/docs/Web/CSS/order)
 ```
 flex-direction: column-reverse;
 ```
