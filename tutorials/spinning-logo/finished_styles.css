@@ -7,9 +7,11 @@
   }
 }
 
-.logo {
+#spinning {
   animation: logo-spin infinite 20s linear;
   display: block;
   margin: auto;
+  width: 500px;
+  height: auto;
   margin-top: 20%;
 }
