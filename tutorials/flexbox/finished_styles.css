@@ -1,11 +1,18 @@
 .parent {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .child {
   height: 100px;
   width: 100px;
+}
+
+.child:nth-child(even){
+  height: 200px;
 }
 
 #red {
