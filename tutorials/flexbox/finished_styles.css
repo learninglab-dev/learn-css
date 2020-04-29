@@ -1,0 +1,40 @@
+.parent {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.child {
+  height: 100px;
+  width: 100px;
+}
+
+.child:nth-child(even){
+  height: 200px;
+}
+
+#red {
+  background-color: red;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#violet {
+  background-color: purple;
+}

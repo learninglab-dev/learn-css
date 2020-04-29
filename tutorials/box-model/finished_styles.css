@@ -1,0 +1,19 @@
+.three-paras {
+  padding: 10px;
+  margin: 10px;
+}
+
+#para-one, #para-two, #para-three {
+  padding: 10px;
+  margin: 10px;
+}
+
+h1, h2, h3, li {
+  display: inline;
+  color: green;
+}
+
+a, strong, em, span {
+  display: block;
+  color: purple;
+}

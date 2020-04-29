@@ -29,7 +29,7 @@ There are no surprises here! This folder contains all the tutorials. Below is th
   - [make-a-spinning-logo](./tutorials/spinning-logo/spinning-logo.md)
 
 2. CSS Concepts
-  - [box-model]()
+  - [box-model](./tutorials/box-model/box-model.md)
   - [flexbox-layout]()
   - [css-grid]()
   - [intro-to-selectors](./tutorials/intro-to-selectors/intro-to-selectors.md)
