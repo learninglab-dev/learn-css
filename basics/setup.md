@@ -51,3 +51,7 @@ You'll paste this HTML inside the `<body></body>` tags of your document, if you'
 If you created a blank `styles.css` earlier, you're all set to start writing CSS!
 
 You're also free to add any additional CSS, either that you found from a template online or that you've already written here to supplement what's in the tutorials.
+
+## Viewing your Work
+
+To view your work, simply navigate to the .html file using your computer's file browser (Finder, on a Mac) and open it up.  The file will open up as a page in your internet browser!  You can view changes you've made to the page by refreshing the page after you've saved a new addition to your .html or .css documents.
