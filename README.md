@@ -30,7 +30,7 @@ There are no surprises here! This folder contains all the tutorials. Below is th
 
 2. CSS Concepts
   - [box-model](./tutorials/box-model/box-model.md)
-  - [flexbox-layout]()
+  - [flexbox-layout](./tutorials/flexbox/flexbox.md)
   - [css-grid]()
   - [intro-to-selectors](./tutorials/intro-to-selectors/intro-to-selectors.md)
   - [why-cascading](./tutorials/why-cascading/why-cascading.md)
