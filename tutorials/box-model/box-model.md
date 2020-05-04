@@ -61,8 +61,9 @@ h1, h2, h3, li {
 ```
 ![inline](./assets/inline.png)
 
-Other elements like `<a>`, `<strong>`, `<em>`, and `<span>` have `display:inline`
- by default, and are happy to share their space with other inline elements. Again, we can override this with a style and turn them into bad neighbors:
+Other elements like `<a>`(anchor or link), `<strong>`(bold text), `<em>` (italicized text, think "emphasis"), and `<span>` ( inline container, usually used as a way of selecting some text within a paragraph that can then be styled) have `display:inline`
+ by default, and are happy to share their space with other inline elements.
+ Again, we can override this with a style and turn them into bad neighbors:
  ```
  a, strong, em, span {
    display: block;
