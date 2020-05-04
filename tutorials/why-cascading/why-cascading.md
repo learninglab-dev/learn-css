@@ -134,4 +134,4 @@ _Because_ `!important` is so powerful, you should be very intentional about how 
 Specificity is a more responsible tool for defining predictable, durable styling rules, but don't get carried away! Overly-specific styles can be just as hard to read and annoying to debug as too many `!important`s. Use only as many selectors as you need to get the job done.
 
 ## Now go forth and style!
-But before you do, play around with defining clashing rules in `finished_styles.css` to make sure you understand how the cascade works.
+But before you do, play around with defining clashing rules in [finished_styles.css](./tutorials/why-cascading/finished_styles.css) to make sure you understand how the cascade works.
